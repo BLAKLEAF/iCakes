@@ -1,0 +1,118 @@
+body {
+  background-color: #ffe4e4;
+}
+
+h1 {
+  font-family: 'Lobster', cursive;
+  font-size: 100px;
+  color: #f6b8d1;
+  text-align: center;
+  margin-bottom: 0;
+  margin-top: 10px;
+}
+
+
+.order {
+ text-decoration: underline;
+ font-size: 32px;
+ animation: colorRotate 0.5s linear infinite;
+ animation-direction: normal;
+
+}
+
+@keyframes colorRotate {
+ from {
+   color: #e79cc2;
+ }
+ 10% {
+   color: #ff847c;
+ }
+ 50% {
+   color: #f6bed6;
+ }
+ 75% {
+   color: #e36387;
+ }
+ 100% {
+   color: #e2979c;
+ }
+}
+
+section {
+  display: flex;
+  gap: 50px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  font-size: 20px;
+  color: #e2979c;
+  margin-bottom: 30px;
+}
+
+.intro {
+  text-align: center;
+  font-family: 'Lobster', cursive;
+  color: #eb6383;
+  font-size: 20px;
+}
+
+.menu {
+  margin-top: 50px;
+  text-align: center;
+  font-family: 'Philosopher', sans-serif;
+  margin-bottom: 100px;
+}
+
+.menu-head{
+  color: #e6739f;
+  font-family: 'Philosopher', sans-serif;
+  font-size: 50px;
+}
+
+.style-one {
+  border: 0;
+  height: 2px;
+  width: 1000px;
+  background-color: #f2aaaa;
+  background: #f2aaaa;
+  color: #f2aaaa;
+  background-image: -webkit-linear-gradient(left, #ffe0f7, #ff9595, #ffe0f7);
+  background-image: -moz-linear-gradient(left, #ffe0f7, #ff9595, #ffe0f7);
+  background-image: -ms-linear-gradient(left, #ffe0f7, #ff9595, #ffe0f7);
+  background-image: -o-linear-gradient(left, #ffe0f7, #ff9595, #ffe0f7);
+}
+
+li {
+  list-style-type: none;
+  font-size: 20px;
+  color: #f185b3;
+}
+
+.menu-links {
+  text-align: center;
+  width: 100px;
+  height: 30px;
+  text-decoration: none;
+  background-image: linear-gradient(-45deg, #f2aaaa, #f6bed6, #f6def6);
+  border-radius: 50px 0 50px 0;
+  transition: all ease 0.1s;
+  background-size: 400% 400%;
+  background-position: 0 0;
+  font-family: 'Concert One', cursive;
+}
+
+.menu-links:hover {
+  border-radius: 0 50px 0 50px;
+  background-position: 100% 50%;
+}
+
+strong{
+  color: #f85e9f;
+}
+
+.developer {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #f85e9f;
+}
