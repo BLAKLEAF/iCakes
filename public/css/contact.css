@@ -21,6 +21,10 @@ h2 {
   background-image: -o-linear-gradient(left, #e0ece4, #bfdcae, #e0ece4);
 }
 
+.lower{
+  margin-top: 30px;
+}
+
 .developer {
   text-align: center;
   color: #aacfcf;
@@ -117,4 +121,16 @@ p {
 .icon {
   max-width: 50px;
   max-height: 50px;
+}
+
+@media (max-width : 1000px){
+  .lower{
+    margin-top: 110px;
+  }
+}
+
+@media (max-width : 500px){
+  .lower{
+    margin-top: 110px;
+  }
 }
