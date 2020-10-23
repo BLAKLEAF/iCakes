@@ -59,7 +59,6 @@ h2 {
 .style-one {
   border: 0;
   height: 2px;
-  width: 1055px;
   background-image: -webkit-linear-gradient(left, #cffffe, #a6dcef, #cffffe);
   background-image: -moz-linear-gradient(left, #cffffe, #a6dcef, #cffffe);
   background-image: -ms-linear-gradient(left, #cffffe, #a6dcef, #cffffe);

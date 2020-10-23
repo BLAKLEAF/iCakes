@@ -14,7 +14,6 @@ h2{
 .style-one {
   border: 0;
   height: 2px;
-  width: 1000px;
   background-image: -webkit-linear-gradient(left, #e0ece4, #bfdcae, #e0ece4);
   background-image: -moz-linear-gradient(left, #e0ece4, #bfdcae, #e0ece4);
   background-image: -ms-linear-gradient(left, #e0ece4, #bfdcae, #e0ece4);
